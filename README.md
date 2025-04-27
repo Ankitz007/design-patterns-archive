@@ -9,6 +9,7 @@ So far, the following design patterns have been included:
 - Behavioral Patterns: Design patterns that are concerned with algorithms and the assignment of responsibilities between objects.
   - [State](behavioral/state/README.md): A behavioral design pattern that allows an object to change its behavior when its internal state changes.
   - [Strategy](behavioral/strategy/README.md): A behavioral design pattern that enables selecting an algorithm's behavior at runtime.
+  - [Observer](behavioral/observer/README.md): A behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 ## References
 

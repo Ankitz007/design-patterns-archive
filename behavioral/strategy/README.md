@@ -17,7 +17,7 @@ Similarly, the **Strategy Pattern**:
 - Makes them interchangeable.
 - Allows algorithms to vary independently from clients that use them.
 
-> **Goal**: Choose an algorithm at runtime without changing the main program.
+The Strategy Pattern is a **behavioral design pattern** that enables selecting an algorithm's behavior at runtime. This pattern is useful when you have multiple ways to perform a task, and you want to choose the best one at runtime.
 
 ## Structure
 
