@@ -21,7 +21,7 @@ Similarly, the **Strategy Pattern**:
 
 ## Structure
 
-  <img src="./images/strategy_structure.png" alt="Strategy Pattern Structure" width="600">
+  <img src="images/strategy_structure.png" alt="Strategy Pattern Structure" width="600">
 
 **Main Components**:
 

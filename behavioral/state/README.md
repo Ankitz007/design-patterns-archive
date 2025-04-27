@@ -13,7 +13,7 @@ Instead of using many `if-else` conditions, behavior is **delegated to state-spe
 
 ## Structure
 
-  <img src="./images/state_structure.png" alt="State Pattern Structure" width="600">
+  <img src="images/state_structure.png" alt="State Pattern Structure" width="600">
 
 - **Encapsulate state-specific behavior** into separate classes.
 - **State objects handle transitions** between states.

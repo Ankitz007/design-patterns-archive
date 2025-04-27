@@ -7,8 +7,8 @@ This repository contains flash cards for various design patterns, including the 
 So far, the following design patterns have been included:
 
 - Behavioral Patterns: Design patterns that are concerned with algorithms and the assignment of responsibilities between objects.
-  - [State](./behavioral/State.pdf): A behavioral design pattern that allows an object to change its behavior when its internal state changes.
-  - [Strategy](./behavioral/Strategy.pdf): A behavioral design pattern that enables selecting an algorithm's behavior at runtime.
+  - [State](behavioral/State.pdf): A behavioral design pattern that allows an object to change its behavior when its internal state changes.
+  - [Strategy](behavioral/Strategy.pdf): A behavioral design pattern that enables selecting an algorithm's behavior at runtime.
 
 ## References
 
