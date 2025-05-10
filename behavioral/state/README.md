@@ -57,8 +57,6 @@ Instead of using many `if-else` conditions, behavior is **delegated to state-spe
 ❌ **Centralized State Transition Logic**  
 ❌ **Short-Lived Objects** (no meaningful state change during lifespan)
 
----
-
 ## Code Example
 
 ```python
@@ -98,13 +96,50 @@ if __name__ == '__main__':
 
 ## Real World Examples
 
-| System | Interface | Concrete States | Context |
-| :---- | :-------- | :-------------- | :------ |
-| **Vending Machine** | VendingMachineState | IdleState, HasMoneyState, DispensingState, OutOfStockState | VendingMachine |
-| **Video Game Character** | CharacterState | IdleState, RunningState, AttackingState, DeadState | GameCharacter |
-| **Chat App User Presence** | PresenceState | OnlineState, OfflineState, AwayState, BusyState | UserPresence |
-| **ATM Machine** | ATMState | NoCardState, HasCardState, AuthorizedState, NoCashState | ATMMachine |
-| **Elevator System** | ElevatorState | IdleState, MovingUpState, MovingDownState, DoorOpenState | ElevatorController |
-| **Document Workflow System** | DocumentState | DraftState, ReviewState, PublishedState, ArchivedState | Document |
-| **E-commerce Product Lifecycle** | ProductState | NewProductState, ActiveState, DiscontinuedState | Product |
-| **Printer Job Management** | PrintJobState | QueuedState, PrintingState, CompletedState, ErrorState | PrintJob |
+- **Vending Machine**  
+  - **System**: Vending Machine  
+  - **Interface**: VendingMachineState  
+  - **Concrete States**: IdleState, HasMoneyState, DispensingState, OutOfStockState  
+  - **Context**: VendingMachine  
+
+- **Video Game Character**  
+  - **System**: Video Game Character  
+  - **Interface**: CharacterState  
+  - **Concrete States**: IdleState, RunningState, AttackingState, DeadState  
+  - **Context**: GameCharacter  
+
+- **Chat App User Presence**  
+  - **System**: Chat App User Presence  
+  - **Interface**: PresenceState  
+  - **Concrete States**: OnlineState, OfflineState, AwayState, BusyState  
+  - **Context**: UserPresence  
+
+- **ATM Machine**  
+  - **System**: ATM Machine  
+  - **Interface**: ATMState  
+  - **Concrete States**: NoCardState, HasCardState, AuthorizedState, NoCashState  
+  - **Context**: ATMMachine  
+
+- **Elevator System**  
+  - **System**: Elevator System  
+  - **Interface**: ElevatorState  
+  - **Concrete States**: IdleState, MovingUpState, MovingDownState, DoorOpenState  
+  - **Context**: ElevatorController  
+
+- **Document Workflow System**  
+  - **System**: Document Workflow System  
+  - **Interface**: DocumentState  
+  - **Concrete States**: DraftState, ReviewState, PublishedState, ArchivedState  
+  - **Context**: Document  
+
+- **E-commerce Product Lifecycle**  
+  - **System**: E-commerce Product Lifecycle  
+  - **Interface**: ProductState  
+  - **Concrete States**: NewProductState, ActiveState, DiscontinuedState  
+  - **Context**: Product  
+
+- **Printer Job Management**  
+  - **System**: Printer Job Management  
+  - **Interface**: PrintJobState  
+  - **Concrete States**: QueuedState, PrintingState, CompletedState, ErrorState  
+  - **Context**: PrintJob  

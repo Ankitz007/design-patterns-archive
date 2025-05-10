@@ -125,13 +125,42 @@ cart2.checkout(200)
 
 ## Real-World Examples
 
-| Scenario | Interface | Strategies | Context |
-|:---------|:----------|:-----------|:--------|
-| **Payment Methods in E-commerce** | `PaymentStrategy` | `CreditCardPayment`, `PayPalPayment` | `ShoppingCart` |
-| **Route Calculation in Maps** | `RouteStrategy` | `CarRoute`, `BikeRoute`, `WalkingRoute` | `NavigationSystem` |
-| **Email Sorting in Gmail** | `EmailSortingStrategy` | `PrimaryInbox`, `PromotionsInbox`, `SpamFilter` | `EmailClient` |
-| **Image Filters in Instagram/Photoshop** | `ImageFilter` | `BlackAndWhiteFilter`, `SepiaFilter`, `BlurFilter` | `PhotoEditor` |
-| **Video Playback Quality (YouTube/Netflix)** | `VideoQualityStrategy` | `AutoQuality`, `HDQuality`, `UltraHDQuality` | `VideoPlayer` |
-| **Difficulty Modes in Games** | `DifficultyStrategy` | `EasyMode`, `NormalMode`, `HardMode`, `ExpertMode` | `GameEngine` |
-| **Text-to-Speech Engines** | `VoiceStrategy` | `MaleVoice`, `FemaleVoice`, `AIEnhancedVoice` | `TextToSpeechEngine` |
-| **Auto Text Formatting in Word Processors** | `TextFormatStrategy` | `BoldFormat`, `ItalicFormat`, `UnderlineFormat` | `WordProcessor` |
+- **Payment Methods in E-commerce**  
+  - **Interface**: `PaymentStrategy`  
+  - **Strategies**: `CreditCardPayment`, `PayPalPayment`  
+  - **Context**: `ShoppingCart`
+
+- **Route Calculation in Maps**  
+  - **Interface**: `RouteStrategy`  
+  - **Strategies**: `CarRoute`, `BikeRoute`, `WalkingRoute`  
+  - **Context**: `NavigationSystem`
+
+- **Email Sorting in Gmail**  
+  - **Interface**: `EmailSortingStrategy`  
+  - **Strategies**: `PrimaryInbox`, `PromotionsInbox`, `SpamFilter`  
+  - **Context**: `EmailClient`
+
+- **Image Filters in Instagram/Photoshop**  
+  - **Interface**: `ImageFilter`  
+  - **Strategies**: `BlackAndWhiteFilter`, `SepiaFilter`, `BlurFilter`  
+  - **Context**: `PhotoEditor`
+
+- **Video Playback Quality (YouTube/Netflix)**  
+  - **Interface**: `VideoQualityStrategy`  
+  - **Strategies**: `AutoQuality`, `HDQuality`, `UltraHDQuality`  
+  - **Context**: `VideoPlayer`
+
+- **Difficulty Modes in Games**  
+  - **Interface**: `DifficultyStrategy`  
+  - **Strategies**: `EasyMode`, `NormalMode`, `HardMode`, `ExpertMode`  
+  - **Context**: `GameEngine`
+
+- **Text-to-Speech Engines**  
+  - **Interface**: `VoiceStrategy`  
+  - **Strategies**: `MaleVoice`, `FemaleVoice`, `AIEnhancedVoice`  
+  - **Context**: `TextToSpeechEngine`
+
+- **Auto Text Formatting in Word Processors**  
+  - **Interface**: `TextFormatStrategy`  
+  - **Strategies**: `BoldFormat`, `ItalicFormat`, `UnderlineFormat`  
+  - **Context**: `WordProcessor`
