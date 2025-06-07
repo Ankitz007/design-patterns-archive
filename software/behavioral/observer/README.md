@@ -26,7 +26,7 @@ These subscribers are the **Observers** 👀.
 
 <img src="images/observer_structure.png" alt="Strategy Pattern Structure" width="600">
 
-**Main Components**:
+### Main Components
 
 - **Publisher** — Maintains a list of subscribers and notifies them of state changes.
 - **Subscriber** — Interface for objects that should be notified of changes.
@@ -35,52 +35,56 @@ These subscribers are the **Observers** 👀.
 
 ## Key Characteristics
 
-- **Loose Coupling**  
-  The subject and observers only know each other's interfaces, not concrete implementations.  
-  _Benefit: Enhances modularity and maintainability._
+**Loose Coupling** 🧩
 
-- **Dynamic Relationships**  
-  Observers can be added/removed at runtime without affecting the subject.  
-  _Benefit: Increases flexibility and adaptability._
+- The subject and observers only know each other's interfaces, not concrete implementations.  
+  **Benefit:** Enhances modularity and maintainability.
 
-- **Automatic Updates**  
-  Observers get notified whenever the subject's state changes, no manual effort needed.  
-  _Benefit: Real-time synchronization and minimal risk of outdated data._
+**Dynamic Relationships** 🔄
 
-- **Broadcast Communication**  
-  The subject iterates over all observers and calls a common update method.  
-  _Benefit: Efficient and consistent notification to all dependents._
+- Observers can be added/removed at runtime without affecting the subject.  
+  **Benefit:** Increases flexibility and adaptability.
+
+**Automatic Updates** ⚡
+
+- Observers get notified whenever the subject's state changes, no manual effort needed.  
+  **Benefit:** Real-time synchronization and minimal risk of outdated data.
+
+**Broadcast Communication** 📢
+
+- The subject iterates over all observers and calls a common update method.  
+  **Benefit:** Efficient and consistent notification to all dependents.
 
 ## When to Use?
 
 ✅ **Multiple components need to stay in sync with shared data**  
-_Example: Weather station pushing updates to apps, displays, and websites._
+**Example:** Weather station pushing updates to apps, displays, and websites.
 
 ✅ **Real-time event-driven updates are required**  
-_Example: Stock trading platforms pushing live updates._
+**Example:** Stock trading platforms pushing live updates.
 
 ✅ **Publish/subscribe communication**  
-_Example: Chat server broadcasting messages to all group members._
+**Example:** Chat server broadcasting messages to all group members.
 
 ✅ **Separation of data logic and UI**  
-_Example: To-do list apps updating UI when tasks are modified._
+**Example:** To-do list apps updating UI when tasks are modified.
 
 ## When NOT to Use?
 
 ❌ **Observer relationships are too complex**  
-_Hard to debug when observers depend on multiple subjects._
+Hard to debug when observers depend on multiple subjects.
 
 ❌ **Extremely frequent updates where performance is critical**  
-_May lead to performance bottlenecks ("update storm")._
+May lead to performance bottlenecks ("update storm").
 
 ❌ **Updates are rare and real-time isn't needed**  
-_Polling might be simpler and more efficient._
+Polling might be simpler and more efficient.
 
 ❌ **Observers can trigger updates back to subjects**  
-_Risks infinite loops due to circular dependencies._
+Risks infinite loops due to circular dependencies.
 
 ❌ **Tight synchronization or specific ordering needed**  
-_Observer pattern doesn't guarantee notification order or precise timing._
+Observer pattern doesn't guarantee notification order or precise timing.
 
 ## Code Example
 

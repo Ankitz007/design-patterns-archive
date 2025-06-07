@@ -11,6 +11,8 @@ So far, the following design patterns have been included:
   - [Strategy](behavioral/strategy/README.md): A behavioral design pattern that enables selecting an algorithm's behavior at runtime.
   - [Observer](behavioral/observer/README.md): A behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
   - [Command](behavioral/command/README.md): A behavioral design pattern that turns a request into a stand-alone object containing all information about the request.
+  - [Iterator](behavioral/iterator/README.md): A behavioral design pattern that provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+  - [Template Method](behavioral/template/README.md): A behavioral design pattern that defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
 
 - **Structural Patterns:** Design patterns that deal with object composition or structure.
   - [Facade](structural/facade/README.md): A structural design pattern that provides a simplified interface to a complex subsystem.
