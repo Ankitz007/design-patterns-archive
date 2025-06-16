@@ -35,22 +35,22 @@ The **Iterator Pattern** is a behavioral design pattern that lets you traverse e
 
 **Encapsulation of Traversal Logic** 📦
 
-- The responsibility of traversal is moved from the collection to a separate iterator object.
+- The responsibility of traversal is moved from the collection to a separate iterator object.  
 **Benefit:** Simplifies the collection's interface and cleans up its code. The collection worries about storing data, and the iterator worries about traversing it.
 
 **Uniform Traversal Interface** 🚶
 
-- Provides a single, standard way for clients to traverse different types of collections (lists, trees, graphs, etc.).
+- Provides a single, standard way for clients to traverse different types of collections (lists, trees, graphs, etc.).  
 **Benefit:** The client code becomes more flexible and reusable, as it can work with any collection that provides an iterator.
 
 **Multiple Simultaneous Traversals** 🔄
 
-- You can create multiple independent iterators from the same collection, each maintaining its own state.
+- You can create multiple independent iterators from the same collection, each maintaining its own state.  
 **Benefit:** Allows for things like nested loops or comparing elements within the same collection without interference.
 
 **Support for Different Traversal Algorithms** 🗺️
 
-- The collection can offer different kinds of iterators for different traversal methods (e.g., a `DepthFirstIterator` and a `BreadthFirstIterator` for a tree).
+- The collection can offer different kinds of iterators for different traversal methods (e.g., a `DepthFirstIterator` and a `BreadthFirstIterator` for a tree).  
 **Benefit:** Clients can choose the traversal algorithm that best fits their needs without the collection class becoming bloated with multiple traversal methods.
 
 ## When to Use?
